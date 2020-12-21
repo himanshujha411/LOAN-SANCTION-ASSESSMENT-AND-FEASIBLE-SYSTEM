@@ -78,16 +78,6 @@ prediction=model3.predict(x_test1)
 print(prediction,'\n')
 print('THE ACCURACY SCORE BETWEEN 2 DATASETS ARE : ',(accuracy_score(Y, prediction))*100,end='%')
 print('\n\n')
-
-
-#prediction=str(prediction)
-    
-#for i in range(len(prediction)):
-#    if(prediction[i]=='Y'):
- #       prediction[i] = prediction[i].replace('Y','APPROVED')
-  #  elif(prediction[i]=='N'):
-   #     prediction[i] = prediction[i].replace('N','NOT APPROVED')
-   
    
 # CONVERTING THE 1 AND 0 RESULTS INTO 'Y' AND 'N'
    
